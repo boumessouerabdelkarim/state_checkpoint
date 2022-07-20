@@ -1,5 +1,6 @@
 import React,{ useState } from 'react'
 import"./App.css"
+import Time from './Time';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <h1 >{person.fullName}</h1>
         <h3>{person.profession}</h3>
         <p>{person.bio}</p>
+        <Time/>
       </div>
     </div>:null}
   
